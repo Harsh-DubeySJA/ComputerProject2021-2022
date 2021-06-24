@@ -27,7 +27,7 @@ public class ProjectProgram1MultiDimensionalArrayP {
         int array [] [] ;
         System.out.print("Enter length of row and column :: ");
         array = new int [sc.nextInt()] [sc.nextInt()] ;
-        for (int i = 0; i < array.length; i++) { // Enhanced For
+        for (int i = 0; i < array.length; i++) {
             System.out.print("Enter the elements of " + (i+1) + " row :: ");
             for (int j = 0; j < array[i].length; j++)
                 array [i] [j] = sc.nextInt() ;
