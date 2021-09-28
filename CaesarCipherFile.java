@@ -7,7 +7,7 @@ public class CaesarCipherFile {
       File Cipher = new File("Cipher.txt");
       FileOutputStream Cipherprint = new FileOutputStream(Cipher);
       DataOutputStream print = new DataOutputStream(Cipherprint);
-      pathToTargetFile = CaesarCipher.encrpt(pathToSourceFile, key);
+      pathToTargetFile = CaesarCipher.encrypt(pathToSourceFile, key);
       print.writeUTF(pathToTargetFile);
       print.close();
    }

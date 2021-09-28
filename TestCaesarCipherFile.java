@@ -18,7 +18,7 @@ public static void main(String[] args) throws IOException {
             case 1 :
                 System.out.println("Swift Parameter <Space> Plain Text");
                 key = sc.nextInt(); 
-                System.out.println(CaesarCipher.encrpt(sc.nextLine() , key));;
+                System.out.println(CaesarCipher.encrypt(sc.nextLine() , key));;
                 break;
             case 2 :
                 System.out.println("Swift Parameter <Space> Cipher Text");
@@ -28,12 +28,12 @@ public static void main(String[] args) throws IOException {
             case 3:
                 System.out.println("Enter Swift Parameter");
                 key = sc.nextInt();
-                CaesarCipherFile.encryptFile(plainfile.nextLine(), key, "");
+                CaesarCipherFile.encryptFile(plainfile.nextLine(), key, ""); // File name of plaintext
                 break;
             case 4:
                 System.out.println("Enter Swift Parameter");
                 key = sc.nextInt();
-                CaesarCipherFile.decryptFile(cipherfile.nextLine(), key, "");
+                CaesarCipherFile.decryptFile(cipherfile.nextLine(), key, ""); // File name of ciphertext
                 break;
             default:
             System.out.println("Invalid Input!!!");

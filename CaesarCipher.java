@@ -1,5 +1,5 @@
 public class CaesarCipher {
-    public static String encrpt(String plainText , int key) {
+    public static String encrypt(String plainText , int key) {
         String cipherText = "";
         key = 26 - key;
         plainText = plainText.toUpperCase();
