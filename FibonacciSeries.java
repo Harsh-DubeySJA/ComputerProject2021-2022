@@ -1,3 +1,6 @@
+
+// Design a OOP based Program to print the Fibonacci Terms till the number provided.
+
 import java.util.Scanner;
 
 public class FibonacciSeries {
